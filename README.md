@@ -25,6 +25,7 @@ import numpy as np
 ```
 
 ## Reading image from file
+Here we are using 'cv2.imread()' method to read samples.
 
 ```python
 img = cv2.imread("cat.png")
