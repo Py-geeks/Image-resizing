@@ -32,14 +32,14 @@ img = cv2.imread("cat.png")
 ```
 
 
-## Img resizing
-###Theory:(Demonstrated Down-scaling)
-Here we are using a bit better method to resize an image, preserving the aspect-ratio rather than using normal resizing.
-1.Set the scale-percentage i.e percentage upto which, we want to downscale.
-2.Build new width of the resized image i.e (Original image width * scale_percent).
-3.Build new height of the resized image i.e (Original image height * scale_percent).
-4.Storing height and width.
-In the next snippet we are using interpolation to finally resizing it.
+## Img resizing<br>
+### Theory:(Demonstrated Down-scaling)
+Here we are using a bit better method to resize an image, preserving the aspect-ratio rather than using normal resizing.<br>
+1.Set the scale-percentage i.e percentage upto which, we want to downscale.<br>
+2.Build new width of the resized image i.e (Original image width * scale_percent).<br>
+3.Build new height of the resized image i.e (Original image height * scale_percent).<br>
+4.Storing height and width.<br>
+In the next snippet we are using interpolation to finally resizing it.<br>
 
 ```python
 scale_percent = 0.60
